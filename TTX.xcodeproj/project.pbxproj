@@ -15,6 +15,10 @@
 		5E9D892429CF02FA00D8A1B3 /* TTXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D892329CF02FA00D8A1B3 /* TTXTests.swift */; };
 		5E9D892E29CF02FA00D8A1B3 /* TTXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D892D29CF02FA00D8A1B3 /* TTXUITests.swift */; };
 		5E9D893029CF02FA00D8A1B3 /* TTXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D892F29CF02FA00D8A1B3 /* TTXUITestsLaunchTests.swift */; };
+		5EF07E0229CF0478004ABC10 /* EuropeanTeletextNuevo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EF07E0129CF0478004ABC10 /* EuropeanTeletextNuevo.ttf */; };
+		5EF07E0329CF07AA004ABC10 /* EuropeanTeletextNuevo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EF07E0129CF0478004ABC10 /* EuropeanTeletextNuevo.ttf */; };
+		5EF07E0429CF07AB004ABC10 /* EuropeanTeletextNuevo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EF07E0129CF0478004ABC10 /* EuropeanTeletextNuevo.ttf */; };
+		5EF07E0629CF0A51004ABC10 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EF07E0529CF0A51004ABC10 /* Settings.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,8 @@
 		5E9D892929CF02FA00D8A1B3 /* TTXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9D892D29CF02FA00D8A1B3 /* TTXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTXUITests.swift; sourceTree = "<group>"; };
 		5E9D892F29CF02FA00D8A1B3 /* TTXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EF07E0129CF0478004ABC10 /* EuropeanTeletextNuevo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EuropeanTeletextNuevo.ttf; path = ../../../../../../Downloads/european_teletext/EuropeanTeletextNuevo.ttf; sourceTree = "<group>"; };
+		5EF07E0529CF0A51004ABC10 /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 				5E9D890F29CF02F900D8A1B3 /* AppDelegate.swift */,
 				5E9D891129CF02F900D8A1B3 /* ViewController.swift */,
 				5E9D891329CF02F900D8A1B3 /* Main.storyboard */,
+				5EF07E0529CF0A51004ABC10 /* Settings.xib */,
+				5EF07E0129CF0478004ABC10 /* EuropeanTeletextNuevo.ttf */,
 				5E9D891629CF02FA00D8A1B3 /* Assets.xcassets */,
 				5E9D891829CF02FA00D8A1B3 /* LaunchScreen.storyboard */,
 			);
@@ -226,9 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF07E0229CF0478004ABC10 /* EuropeanTeletextNuevo.ttf in Resources */,
 				5E9D891A29CF02FA00D8A1B3 /* LaunchScreen.storyboard in Resources */,
 				5E9D891729CF02FA00D8A1B3 /* Assets.xcassets in Resources */,
 				5E9D891529CF02F900D8A1B3 /* Main.storyboard in Resources */,
+				5EF07E0629CF0A51004ABC10 /* Settings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF07E0429CF07AB004ABC10 /* EuropeanTeletextNuevo.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EF07E0329CF07AA004ABC10 /* EuropeanTeletextNuevo.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
